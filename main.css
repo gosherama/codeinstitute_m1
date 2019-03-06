@@ -1,10 +1,18 @@
+/* 
+https://coolors.co/ea8c55-c75146-ad2e24-81171b-540804
+color: #000;
+color: #eee;
+color: #EA8C55
+*/
+
+
 body {
     font-family: 'Montserrat', sans-serif;  
 }
 
 /* Header */
 header {
-    height: 100vh;
+    height: 80vh;
     background: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.5)),url(assets/img/monkees.jpg) no-repeat center center /cover;
 }
 
@@ -21,10 +29,10 @@ header {
     transition: color .5s;
 }
 .menu-item:hover {
-    color: #70ead2;
+    color:#EA8C55;
 }
 .nav-active {
-    color: #70ead2;
+    color: #EA8C55;
 }
 
 .line1, .line2, .line3 {
@@ -42,7 +50,6 @@ header {
 .change .line3 {
     transform: rotate(45deg) translate(-5px,-6px);
 }
-
 .custom-navbar {
     padding: 5px 30px;
     background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.7))
@@ -68,6 +75,13 @@ header {
     animation-delay: .5s;
     animation-fill-mode: backwards;
 }
+.banner-arrow {
+    animation-name: anim;
+    animation-duration: 3s;
+    /* animation-delay: .3s; */
+    /* animation-fill-mode: forwards; */
+}
+
 @keyframes anim {
     0% {
         transform: translateX(-100px);
@@ -81,3 +95,77 @@ header {
 /* End of banner */
 
 /* End of header */
+
+
+/* Contact */
+.contact {
+    /* Angle to split background */
+    background:linear-gradient(105deg, 
+    /* From left side of background 70% is covered, from 1 to .8 opacity*/
+    rgba(21,31,32,1) 0%, 
+    rgba(21,31,32,.8) 50%,
+    transparent 50%), 
+    url('assets/img/portrait-of-the-monkees-story-top.jpg') center center no-repeat/cover;
+}
+
+.input {
+    background: transparent;
+    border-color:transparent;
+    border-bottom: 2px solid #ccc;
+    border-radius: 0;
+    transition: all .5s;
+}
+
+.input:focus {
+    background: transparent;
+    border-color:transparent;
+    box-shadow: none;
+    color: #fff;
+    border-bottom: 2px solid #f5593d;
+}
+.submit-button {
+    background: #f5593d;
+    color: #eee;
+    transition: all .3s;
+}
+.submit-button:hover {
+    background: #f5593d;
+    transform: translateY(-3px);
+}
+.label {
+    color: #777;
+    display:block;
+    margin-top: -70px;
+    margin-left: 4px;
+    font-size: 13px;
+    transition: all .3s;
+}
+.input:placeholder-shown + .label {
+    transform: translate(20px, 20px);
+    opacity: 0;
+    visibility: hidden;
+}
+
+@media (max-width: 992px) {
+    .contact {
+        background: linear-gradient(rgba(21,31,32,1), rgba(21,31,32,.95))
+    }
+    .contact-form {
+        width: 80%;
+        margin:auto;
+    }
+}
+/* end of contact */
+
+
+/* Footer */
+.footer-link {
+    color: #eee;
+    font-size: 13px;
+    transition: all .3s;
+}
+.footer-link:hover {
+    color: #78aed2;
+    text-decoration: none;
+}
+/* End of footer */
