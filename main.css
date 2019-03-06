@@ -2,7 +2,8 @@
 https://coolors.co/ea8c55-c75146-ad2e24-81171b-540804
 color: #000;
 color: #eee;
-color: #EA8C55
+color:#f5593d;
+color: #f5593d;
 */
 
 
@@ -29,10 +30,10 @@ header {
     transition: color .5s;
 }
 .menu-item:hover {
-    color:#EA8C55;
+    color:#f5593d;
 }
 .nav-active {
-    color: #EA8C55;
+    color:#f5593d;
 }
 
 .line1, .line2, .line3 {
@@ -121,15 +122,15 @@ header {
     border-color:transparent;
     box-shadow: none;
     color: #fff;
-    border-bottom: 2px solid #f5593d;
+    border-bottom: 2px solid#f5593d;
 }
 .submit-button {
-    background: #f5593d;
+    background:#f5593d;
     color: #eee;
     transition: all .3s;
 }
 .submit-button:hover {
-    background: #f5593d;
+    background:#f5593d;
     transform: translateY(-3px);
 }
 .label {
