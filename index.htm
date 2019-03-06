@@ -20,7 +20,7 @@
   </head>
   <body>
 <!-- Header -->
-<header>
+<header id='home'>
   <!-- Navbar -->
   <nav class='navbar navbar-expand-lg fixed-top nav-menu'>
     <a href="#" class='navbar-brand text-light text-uppercase'><span class='h2 font-weight-bold'>The Monkees</span></a>
@@ -32,10 +32,10 @@
     <div class="collapse navbar-collapse justify-content-end text-uppercase font-weight-bold" id='myNavbar'>
         <ul class="navbar-nav">
             <li class="nav-item">
-              <a href="#" class='nav-link m-2 menu-item nav-active'>Home</a>
+              <a href="#home" class='nav-link m-2 menu-item nav-active'>Home</a>
             </li>
             <li class="nav-item">
-              <a href="#" class='nav-link m-2 menu-item'>Albums</a>
+              <a href="#albums" class='nav-link m-2 menu-item'>Albums</a>
             </li>
             <li class="nav-item">
               <a href="#" class='nav-link m-2 menu-item'>About</a>
@@ -61,7 +61,7 @@
 <!-- end of Header -->
 
 <!-- Albums -->
-<section class="py-5">
+<section class="py-5" id='albums'>
   <div class="container-fluid">
     <!-- Title -->
     <div class="row text-muted text-center">
@@ -70,7 +70,7 @@
           <div class="underline-dark mb-4"></div>
           <p class='lead'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo, et?</p>
         </div>
-      </div>
+    </div>
     <!-- end of title -->
     <ul class="list-inline text-center text-uppercase font-weight-bold my-4">
       <li class="list-inline-item gallery-list-item active-item" data-filter='all'>All <span class='mx-md-5 mx-3  text-muted'>/</span></li>
@@ -101,98 +101,140 @@
   </div>
 </section>
 <!-- End of gallery -->
+
 <!-- The Band -->
 <section class='p-sm-5 p-2 bg-secondary'>
   <div class="container-fluid">
-  <!-- Title -->
+    <!-- Title -->
     <div class="row">
         <div class="col text-center mb-3">
-          <h1 class='text-white display-3'>The Monkees</h1>
+          <h1 class='text-white display-3'>Meet The Monkees</h1>
           <p class='lead text-light'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta, modi.</p>
         </div>
     </div>
     <!-- End title -->
-      <!-- Cards -->
-      <div class="row">
-        <div class="col-lg-4 col-sm-10 mx-auto mb-4">
-          <div class="card">
+    <!-- Cards -->
+    <div class="row">
+      <div class="col-lg-4 col-sm-10 mx-auto mb-4">
+        <div class="card-container">
+          <div class="card card-front">
             <img src="assets/img/dj.jpg" alt="" class='card-img-top'>
-            <div class="card-body">
-              <div class="card-title">
-                <h3 class='text-muted'>Davy Jones</h3>
-              </div>
-              <div class="card-subtitle">
-                <p class='lead text-secondary'>Lorem ipsum dolor sit amet.</p>
-              </div>
-              <div class="text-right">
-                <a href="#"><i class='fab fa-facebook fa-2x mx-2 text-primary '></i></a>
-                <a href="#"><i class='fab fa-twitter fa-2x mx-2 text-info'></i></a>
-                <a href="#"><i class='fab fa-youtube fa-2x mx-2 text-danger'></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-sm-10 mx-auto mb-4">
-            <div class="card">
-              <img src="assets/img/md.jpg" alt="" class='card-img-top'>
               <div class="card-body">
                 <div class="card-title">
-                  <h3 class='text-muted'>Micky Dolenz</h3>
+                  <h3 class='text-muted'>Davy Jones</h3>
                 </div>
                 <div class="card-subtitle">
                   <p class='lead text-secondary'>Lorem ipsum dolor sit amet.</p>
                 </div>
-                <div class="text-right">
-                  <a href="#"><i class='fab fa-facebook fa-2x mx-2 text-primary '></i></a>
-                  <a href="#"><i class='fab fa-twitter fa-2x mx-2 text-info'></i></a>
-                  <a href="#"><i class='fab fa-youtube fa-2x mx-2 text-danger'></i></a>
+              </div>
+          </div>
+          <div class="card card-back bg-light">
+            <div class="card-body">
+              <div class="card-title">
+                <h3>Back</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-sm-10 mx-auto mb-4">
+          <div class="card-container">
+            <div class="card card-front">
+              <img src="assets/img/dj.jpg" alt="" class='card-img-top'>
+                <div class="card-body">
+                  <div class="card-title">
+                    <h3 class='text-muted'>Davy Jones</h3>
+                  </div>
+                  <div class="card-subtitle">
+                    <p class='lead text-secondary'>Lorem ipsum dolor sit amet.</p>
+                  </div>
+                </div>
+            </div>
+            <div class="card card-back bg-light">
+              <div class="card-body">
+                <div class="card-title">
+                  <h3>Back</h3>
                 </div>
               </div>
             </div>
           </div>
-
-          <div class="col-lg-4 col-sm-10 mx-auto mb-4">
-              <div class="card">
-                <img src="assets/img/mn.jpg" alt="" class='card-img-top'>
-                <div class="card-body">
-                  <div class="card-title">
-                    <h3 class='text-muted'>Michael Nesmith</h3>
-                  </div>
-                  <div class="card-subtitle">
-                    <p class='lead text-secondary'>Lorem ipsum dolor sit amet.</p>
-                  </div>
-                  <div class="text-right">
-                    <a href="#"><i class='fab fa-facebook fa-2x mx-2 text-primary '></i></a>
-                    <a href="#"><i class='fab fa-twitter fa-2x mx-2 text-info'></i></a>
-                    <a href="#"><i class='fab fa-youtube fa-2x mx-2 text-danger'></i></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          
-            <div class="col-lg-4 col-sm-10 mx-auto mb-4">
-              <div class="card">
-                <img src="assets/img/pt.jpg" alt="" class='card-img-top'>
-                <div class="card-body">
-                  <div class="card-title">
-                    <h3 class='text-muted'>Peter Tork</h3>
-                  </div>
-                  <div class="card-subtitle">
-                    <p class='lead text-secondary'>Lorem ipsum dolor sit amet.</p>
-                  </div>
-                  <div class="text-right">
-                    <a href="#"><i class='fab fa-facebook fa-2x mx-2 text-primary '></i></a>
-                    <a href="#"><i class='fab fa-twitter fa-2x mx-2 text-info'></i></a>
-                    <a href="#"><i class='fab fa-youtube fa-2x mx-2 text-danger'></i></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-
       </div>
-      <!-- End the Monkees -->
-  </div>
+
+      <div class="col-lg-4 col-sm-10 mx-auto mb-4">
+          <div class="card-container">
+            <div class="card card-front">
+              <img src="assets/img/dj.jpg" alt="" class='card-img-top'>
+                <div class="card-body">
+                  <div class="card-title">
+                    <h3 class='text-muted'>Davy Jones</h3>
+                  </div>
+                  <div class="card-subtitle">
+                    <p class='lead text-secondary'>Lorem ipsum dolor sit amet.</p>
+                  </div>
+                </div>
+            </div>
+            <div class="card card-back bg-light">
+              <div class="card-body">
+                <div class="card-title">
+                  <h3>Back</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+  
+    <div class="row">
+        <div class="col-lg-4 col-sm-10 mx-auto mb-4">
+            <div class="card-container">
+              <div class="card card-front">
+                <img src="assets/img/dj.jpg" alt="" class='card-img-top'>
+                  <div class="card-body">
+                    <div class="card-title">
+                      <h3 class='text-muted'>Davy Jones</h3>
+                    </div>
+                    <div class="card-subtitle">
+                      <p class='lead text-secondary'>Lorem ipsum dolor sit amet.</p>
+                    </div>
+                  </div>
+              </div>
+              <div class="card card-back bg-light">
+                <div class="card-body">
+                  <div class="card-title">
+                    <h3>Back</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+      </div>
+  
+  
+      <div class="col-lg-4 col-sm-10 mx-auto mb-4">
+          <div class="card-container">
+            <div class="card card-front">
+              <img src="assets/img/dj.jpg" alt="" class='card-img-top'>
+                <div class="card-body">
+                  <div class="card-title">
+                    <h3 class='text-muted'>Davy Jones</h3>
+                  </div>
+                  <div class="card-subtitle">
+                    <p class='lead text-secondary'>Lorem ipsum dolor sit amet.</p>
+                  </div>
+                </div>
+            </div>
+            <div class="card card-back bg-light">
+              <div class="card-body">
+                <div class="card-title">
+                  <h3>Back</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+
+<!-- End the band -->
 </section>
 
 <!-- Contact -->
@@ -233,11 +275,11 @@
       <div class="col-lg-4 col-sm-6">
           <h5 class='pb-3'>Visit Us</h5>
           <ul class="list-unstyled">
-            <li><a href="#" class='footer-link'>Home</a></li>
-            <li><a href="#" class='footer-link'>About</a></li>
-            <li><a href="#" class='footer-link'>Albums</a></li>
+            <li><a href="#home" class='footer-link'>Home</a></li>
+            <li><a href="#about" class='footer-link'>About</a></li>
+            <li><a href="#albums" class='footer-link'>Albums</a></li>
             <li><a href="#" class='footer-link'>Listen & Watch</a></li>
-            <li><a href="#" class='footer-link'>Contact</a></li>
+            <li><a href="#contact" class='footer-link'>Contact</a></li>
           </ul>
       </div>
       <div class="col-lg-4 col-sm-6">

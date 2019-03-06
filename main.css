@@ -97,6 +97,44 @@ header {
 
 /* End of header */
 
+/* Gallery */
+
+.gallery-list-item {
+    cursor: pointer;
+}
+
+/* End Gallery */
+
+/* The Band */
+.card-container {
+    perspective:200rem;
+    position: relative;
+    height:400px;
+}
+
+.card {
+    position: absolute;
+    transition: all .9s;
+    height: 100%;
+    width:100%;
+    backface-visibility: hidden;
+}
+
+.card-container:hover .card-front {
+    transform: rotateY(180deg);
+}
+
+.card-container:hover .card-back {
+    transform: rotateY(0deg);
+}
+
+.card-back {
+    transform: rotateY(180deg);
+}
+
+
+/* End of Band */
+
 
 /* Contact */
 .contact {
@@ -157,7 +195,6 @@ header {
     }
 }
 /* end of contact */
-
 
 /* Footer */
 .footer-link {
