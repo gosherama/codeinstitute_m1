@@ -1,7 +1,18 @@
-# Code Institute milestone project #1 
+# Code Institute - Milestone project #1 - User Centric Frontend development
 ---
 
 ## The Monkees Website
+
+1. Project Overview
+2. UX
+3. User Stories
+4. Wireframe, mockups, diagrams...
+5. Features
+6. Technologies used
+7. Testing
+8. Deployment
+9. Credits
+
 
 ### Project Overview
 
@@ -35,7 +46,6 @@ For some/all of your features, you may choose to reference the specific project 
 -
 -
 
-
 ### Technologies Used
 - Code editor & debug tools
     - Visual Studio Code
@@ -51,7 +61,7 @@ For some/all of your features, you may choose to reference the specific project 
 - libraries
     - [Jquery v.3.3.1](http://jquery.com/) - Javascript library for HTML document traversal and DOM manipulation
 - other tools
-    - Git & GitHub - Version source control
+    - [Git & GitHub](https://github.com/gosherama/codeinstitute_m1) - Version source control
     - [Font Awesome v.5.2.7](https://fontawesome.com/) - Vector icons and social links logos
     - [Google Fonts](https://fonts.google.com/) - Fonts repository
     - [Coolors](https://coolors.co/ea8c55-c75146-ad2e24-81171b-540804) - Color palette generator
