@@ -3,7 +3,6 @@ https://coolors.co/ea8c55-c75146-ad2e24-81171b-540804
 color: #000;
 color: #eee;
 color:#f5593d;
-color: #f5593d;
 */
 
 
@@ -19,10 +18,14 @@ header {
 
 /* Navbar */
 .nav-menu {
-    background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3));
+    background: linear-gradient(rgba(0,0,0,.1), rgba(0,0,0,.1));
     padding: 30px;
     transition: all .7s;
 }
+.scrolled {
+    color: #000;
+}
+
 .menu-item {
     font-size: 13px;
     letter-spacing: 1px;
@@ -114,7 +117,7 @@ header {
 
 .card {
     position: absolute;
-    transition: all .9s;
+    transition: all 1s;
     height: 100%;
     width:100%;
     backface-visibility: hidden;
