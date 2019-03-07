@@ -1,4 +1,3 @@
-
 $(window).ready(function() {
 // Navbar
 $(window).on('scroll', function() {
@@ -9,6 +8,7 @@ $(window).on('scroll', function() {
     }
   });
 });
+
 
 $(document).ready(function() {
 // Menu toggle effect

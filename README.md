@@ -14,27 +14,29 @@
 9. Credits
 
 
-### Project Overview
+### 1.Project Overview
 
-### UX
+
+
+### 2.UX
 - Insight into UX process
 - Targeted audience
 - Intended use
 - How project is the best way to help them achieve these things.
 
-### User Stories
+### 3.User Stories
 
 - As a user type, I want to perform an action, so that I can achieve a goal.
 -
 -
 -
 
-### Wireframe, mockups, diagrams...
+### 4.Wireframe, mockups, diagrams...
 
 - files should themselves either be included in the project itself (in an separate directory), 
 - or just hosted elsewhere online and can be in any format that is viewable inside the browser.
 
-### Features
+### 5.Features
 #### Implemented Features
 Feature 1 - allows users X to achieve Y, by having them fill out Z
 ...
@@ -46,7 +48,7 @@ For some/all of your features, you may choose to reference the specific project 
 -
 -
 
-### Technologies Used
+### 6.Technologies Used
 - Code editor & debug tools
     - Visual Studio Code
         - Live Server 5.5.1 - Local development server with live reload feature for static & dynamic pages
@@ -66,7 +68,7 @@ For some/all of your features, you may choose to reference the specific project 
     - [Google Fonts](https://fonts.google.com/) - Fonts repository
     - [Coolors](https://coolors.co/ea8c55-c75146-ad2e24-81171b-540804) - Color palette generator
     
-### Testing
+### 7.Testing
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
 Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
@@ -84,11 +86,11 @@ You should also mention in this section any interesting bugs or problems you dis
 
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
-### Deployment
+### 8.Deployment
 - describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku)
 - In addition, if it is not obvious, you should also describe how to run your code locally.
 
-### Credits
+### 9.Credits
 - Content
 - Media
 
