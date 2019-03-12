@@ -11,7 +11,11 @@
 6. Technologies used
 7. Testing
 8. Deployment
+<<<<<<< HEAD
 9. Credits & acknowledgments
+=======
+9. Credits
+>>>>>>> 9686cd6a1ddd024c7d3769b27330e9191615defd
 10. Resources
 
 
@@ -68,7 +72,11 @@ For some/all of your features, you may choose to reference the specific project 
     - [Font Awesome v.5.2.7](https://fontawesome.com/) - Vector icons and social links logos
     - [Google Fonts](https://fonts.google.com/) - Fonts repository
     - [Coolors](https://coolors.co/ea8c55-c75146-ad2e24-81171b-540804) - Color palette generator
+<<<<<<< HEAD
     - Wireframing - [Sneakpeekit](https://sneakpeekit.com/) - Free printable grid for design layout.
+=======
+    - [balsamiq](http://www.balsamiq.com) - Wireframing
+>>>>>>> 9686cd6a1ddd024c7d3769b27330e9191615defd
     
 ### 7.Testing
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
@@ -100,3 +108,5 @@ Bio - Spotify - https://open.spotify.com/artist/320EPCSEezHt1rtbfwH6Ck/about
 
 Source: CNN - https://edition.cnn.com/2012/02/29/showbiz/obit-davy-jones/index.html
 portrait-of-the-monkees-story-top.jpg
+
+### 10.Resources
