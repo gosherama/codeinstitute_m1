@@ -6,16 +6,17 @@
 1. Project Overview
 2. UX
 3. User Stories
-4. Wireframe, mockups, diagrams...
+4. Wireframe, mockups, diagrams
 5. Features
 6. Technologies used
 7. Testing
 8. Deployment
-9. Credits
+9. Credits & acknowledgments
+10. Resources
 
 
 ### 1.Project Overview
-
+This project is the the first milestone of the Code Institute's curriculum. It is a static web site for 'The Monkees' a 1960's rock band active to this day. 
 
 
 ### 2.UX
