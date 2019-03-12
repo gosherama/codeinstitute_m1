@@ -109,10 +109,14 @@ header {
 /* End Gallery */
 
 /* The Band */
+section .about {
+    background-color: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,.9)), url(assets/img/mosaic.png) center no-repeat;
+}
+
 .card-container {
-    perspective:200rem;
+    /* perspective:200rem; */
     position: relative;
-    height:400px;
+    height:350px;
 }
 
 .card {
@@ -121,6 +125,8 @@ header {
     height: 100%;
     width:100%;
     backface-visibility: hidden;
+    border:none;
+    box-shadow: 2px;
 }
 
 .card-container:hover .card-front {
