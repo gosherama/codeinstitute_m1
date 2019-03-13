@@ -5,23 +5,17 @@
 
 1. Project Overview
 2. UX
-3. User Stories
-4. Wireframe, mockups, diagrams
+3. Wireframe, mockups, diagrams
+4. User Stories
 5. Features
 6. Technologies used
 7. Testing
 8. Deployment
-<<<<<<< HEAD
 9. Credits & acknowledgments
-=======
-9. Credits
->>>>>>> 9686cd6a1ddd024c7d3769b27330e9191615defd
 10. Resources
-
 
 ### 1.Project Overview
 This project is the the first milestone of the Code Institute's curriculum. It is a static web site for 'The Monkees' a 1960's rock band active to this day. 
-
 
 ### 2.UX
 - Insight into UX process
@@ -29,25 +23,22 @@ This project is the the first milestone of the Code Institute's curriculum. It i
 - Intended use
 - How project is the best way to help them achieve these things.
 
-### 3.User Stories
+### 3.Wireframe, mockups, diagrams...
+    - Include files in the project / Separate directory (file, scan..)
 
-- As a user type, I want to perform an action, so that I can achieve a goal.
+### 4.User Stories
+
+- As a user, I want to perform an action, so that I can achieve a goal.
 -
 -
 -
-
-### 4.Wireframe, mockups, diagrams...
-
-- files should themselves either be included in the project itself (in an separate directory), 
-- or just hosted elsewhere online and can be in any format that is viewable inside the browser.
 
 ### 5.Features
 #### Implemented Features
 Feature 1 - allows users X to achieve Y, by having them fill out Z
-...
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
+    - reference the specific project files that implement them (optional)
 
-#### Features Left to Implement
+#### Features for consideration
 -
 -
 -
@@ -55,35 +46,40 @@ For some/all of your features, you may choose to reference the specific project 
 
 ### 6.Technologies Used
 - Code editor & debug tools
-    - Visual Studio Code
+    - Visual Studio Code (V.1.29.1)
         - Live Server 5.5.1 - Local development server with live reload feature for static & dynamic pages
-        - VS plugins: Bracket pair colorizer, git-bash
+        - VS plugins: 
+            - Bracket pair colorizer - extension allows matching brackets to be identified with colours.
+            - Colorize - Visualize colors in CSS file
+            - git-bash - Adds "bash" commands to VSCode that allow to start git-bash.
+            - Terminal - Run terminal command directly in Text Editor
     - Google Chrome - DevTools
-- languages
+- Languages
     - HTML
     - CSS
     - Javascript
-- frameworks
+- Frameworks
     - [Bootstrap v.4.3.1](https://getbootstrap.com/) - Front end framework
-- libraries
+- Libraries
     - [Jquery v.3.3.1](http://jquery.com/) - Javascript library for HTML document traversal and DOM manipulation
-- other tools
+- Testing
+    -
+    -
+- Other tools
     - [Git & GitHub](https://github.com/gosherama/codeinstitute_m1) - Version source control
     - [Font Awesome v.5.2.7](https://fontawesome.com/) - Vector icons and social links logos
     - [Google Fonts](https://fonts.google.com/) - Fonts repository
     - [Coolors](https://coolors.co/ea8c55-c75146-ad2e24-81171b-540804) - Color palette generator
-<<<<<<< HEAD
-    - Wireframing - [Sneakpeekit](https://sneakpeekit.com/) - Free printable grid for design layout.
-=======
-    - [balsamiq](http://www.balsamiq.com) - Wireframing
->>>>>>> 9686cd6a1ddd024c7d3769b27330e9191615defd
+    - [Balsamiq](https://balsamiq.com) - I leverage the 30 days trial to test this industry standard Wireframing and UI design   tool.
+    - Sketching / Wireframing printable grid - [Sneakpeekit](https://sneakpeekit.com/) - Free printable grid for design layout. I used the mobile and browser grids templates during the ideation phase. 
     
 ### 7.Testing
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+- convince the assessor that you have conducted enough testing to legitimately believe that the site works well.
+- go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
+- Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+- For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
 
 Contact form:
 Go to the "Contact Us" page
@@ -92,13 +88,12 @@ Try to submit the form with an invalid email address and verify that a relevant 
 Try to submit the form with all inputs valid and verify that a success message appears.
 In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+- You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
 
 ### 8.Deployment
 - describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku)
 - In addition, if it is not obvious, you should also describe how to run your code locally.
+---> run code locally using live server from within vscode.
 
 ### 9.Credits
 - Content
@@ -110,3 +105,29 @@ Source: CNN - https://edition.cnn.com/2012/02/29/showbiz/obit-davy-jones/index.h
 portrait-of-the-monkees-story-top.jpg
 
 ### 10.Resources
+Resources (online courses, youtube, articles, books, blog posts...) consulted outside of CI courseware.
+
+#### 10.1 Project definition, ideation, wireframing...
+i- Requirement gathering
+
+ii- Ideation, sketching & Wireframing
+    UX Apprentice - Overview of wireframes and where they fit into a UX design process 
+    https://www.uxapprentice.com/
+    Balsamiq - Intro to wireframing - 6.Process
+    https://balsamiq.com/learn/courses/wireframing/process/
+    DevTips - UI Sketching conventions
+    https://www.youtube.com/watch?v=MwidSAlbEB8
+    Balsamiq - Creating first wireframe
+    https://balsamiq.com/tutorials/articles/firstwireframe/
+    Balsamiq - The two phases of wireframing
+    https://balsamiq.com/learn/resources/articles/two-phases/
+    UX Planet - UX sketching
+    https://uxplanet.org/ux-sketching-4deda906c915
+    UX Movement - Why it is important to sketch before you wireframe
+    http://uxmovement.com/wireframes/why-its-important-to-sketch-before-you-wireframe/
+    Balsamiq - What are wireframe ?
+    https://balsamiq.com/learn/resources/articles/what-are-wireframes/
+    Wikipedia.org - Happy path
+    https://en.wikipedia.org/wiki/Happy_path
+
+iii - 
