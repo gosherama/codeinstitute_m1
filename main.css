@@ -5,7 +5,6 @@ color: #eee;
 color:#f5593d;
 */
 
-
 body {
     font-family: 'Montserrat', sans-serif;  
 }
@@ -14,6 +13,8 @@ body {
 header {
     height: 80vh;
     background: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.5)),url(assets/img/monkees.jpg) no-repeat center center /cover;
+    /* -webkit-clip-path: polygon(0 1%, 100% 0, 100% 95%, 0% 100%);
+    clip-path: polygon(0 1%, 100% 0, 100% 95%, 0% 100%); */
 }
 
 /* Navbar */
@@ -25,7 +26,6 @@ header {
 .scrolled {
     color: #000;
 }
-
 .menu-item {
     font-size: 13px;
     letter-spacing: 1px;
@@ -58,7 +58,6 @@ header {
     padding: 5px 30px;
     background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.7))
 }
-
 /* End of navbar */
 
 /* Banner */
@@ -97,53 +96,27 @@ header {
     }
 }
 /* End of banner */
-
 /* End of header */
 
-/* Gallery */
-
-.gallery-list-item {
-    cursor: pointer;
-}
-
-/* End Gallery */
-
 /* The Band */
-section .about {
-    background-color: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,.9)), url(assets/img/mosaic.png) center no-repeat;
+section#about {
+    /* height: 90vh; */
+    background: linear-gradient(rgba(0,0,0,.9),rgba(0,0,0,.1));
+    /* -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 9% 95%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 9% 95%); */
 }
-
-.card-container {
-    /* perspective:200rem; */
-    position: relative;
-    height:350px;
+.row1, .row2 {
+    display: flex;
+    justify-content: space-around;
 }
-
-.card {
-    position: absolute;
-    transition: all 1s;
-    height: 100%;
-    width:100%;
-    backface-visibility: hidden;
-    border:none;
-    box-shadow: 2px;
-}
-
-.card-container:hover .card-front {
-    transform: rotateY(180deg);
-}
-
-.card-container:hover .card-back {
-    transform: rotateY(0deg);
-}
-
-.card-back {
-    transform: rotateY(180deg);
-}
-
 
 /* End of Band */
 
+/* Gallery */
+.gallery-list-item {
+    cursor: pointer;
+}
+/* End Gallery */
 
 /* Contact */
 .contact {
