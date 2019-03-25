@@ -15,13 +15,30 @@
 10. Resources
 
 ### 1.Project Overview
-This project is the the first milestone of the Code Institute's curriculum. It is a static web site for 'The Monkees' a 1960's rock band active to this day. 
+This project is the first milestone of the Code Institute's fullstack development curriculum. It is a frontend only web site for 'The Monkees', a 1960's rock band that has 50 years experience of performing at various events around the world. The band is active to this day.
 
 ### 2.UX
-- Insight into UX process
-- Targeted audience
-- Intended use
-- How project is the best way to help them achieve these things.
+2.1 Strategy & product definition
+From the Client representative's brief, the business' objectives can be structured as follow:
+    - Improve the band visibility on the web;
+    - improve social media presence via links on their website to Facebook, Twitter and Youtube
+    - Reach a wider audience - existing fans and potential fans
+    - Showcase their music - audio, videos
+    - Showcase photos
+    - realtime update of material availability
+    - publicize availability to perform at private events
+
+2.2 Scope & user stories
+
+| User Story    | Features     | Business Objectives     |
+| :------------- | :----------: | -----------: |
+|  Cell Contents | More Stuff   | And Again    |
+| You Can Also   | Put Pipes In | Like this \| |
+
+
+Structure
+Skeleton
+Surface
 
 ### 3.Wireframe, mockups, diagrams...
     - Include files in the project / Separate directory (file, scan..)
