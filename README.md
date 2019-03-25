@@ -20,20 +20,22 @@ This project is the first milestone of the Code Institute's fullstack developmen
 ### 2.UX
 2.1 Strategy & product definition
 From the Client representative's brief, the business' objectives can be structured as follow:
-    - Improve the band visibility on the web;
-    - improve social media presence via links on their website to Facebook, Twitter and Youtube
-    - Reach a wider audience - existing fans and potential fans
-    - Showcase their music - audio, videos
-    - Showcase photos
-    - realtime update of material availability
-    - publicize availability to perform at private events
+    * Improve the band visibility on the web;
+    * improve social media presence via links on their website to Facebook, Twitter and Youtube
+    * Reach a wider audience - existing fans and potential fans
+    * Showcase their music - audio, videos
+    * Showcase photos
+    * Realtime update of material availability
+    * Publicize availability to perform at private events
 
 2.2 Scope & user stories
 
-| User Story    | Features     | Business Objectives     |
+| User Story    | Features     | Business Objectives|
 | :------------- | :----------: | -----------: |
-|  Cell Contents | More Stuff   | And Again    |
-| You Can Also   | Put Pipes In | Like this \| |
+|As a fan, I want to follow the Monkees on Facebook so that I can be updated on their news|social media icon and link|Improve social media presence|
+|As a fan, I want to follow the Monkees on Twitter so that I can be updated on their news| Social media icon and link | Improve social media presence|
+|As a fan, I want to follow the Monkees on Youtube so that I can access their channel and watch videos| Social media icon and link | Improve social media presence|
+|As a fan, I want to follow the Monkees on Spotify so that I can access their discography| Social media icon and link | Improve social media presence|
 
 
 Structure
