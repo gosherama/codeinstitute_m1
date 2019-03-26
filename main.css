@@ -9,7 +9,7 @@ body {
     font-family: 'Montserrat', sans-serif;  
 }
 
-/* Header */
+/* HEADER */
 header {
     height: 80vh;
     background: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.5)),url(assets/img/monkees.jpg) no-repeat center center /cover;
@@ -17,7 +17,7 @@ header {
     clip-path: polygon(0 1%, 100% 0, 100% 95%, 0% 100%); */
 }
 
-/* Navbar */
+/** NAVBAR **/
 .nav-menu {
     background: linear-gradient(rgba(0,0,0,.1), rgba(0,0,0,.1));
     padding: 30px;
@@ -58,9 +58,9 @@ header {
     padding: 5px 30px;
     background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.7))
 }
-/* End of navbar */
+/** END OF NAVBAR **/
 
-/* Banner */
+/** BANNER **/
 .banner {
     position: absolute;
     top: 50%;
@@ -95,10 +95,10 @@ header {
         opacity: 1;
     }
 }
-/* End of banner */
-/* End of header */
+/** END OF BANNER **/
+/* END OF HEADER */
 
-/* The Band */
+/* THE BAND */
 section#about {
     /* height: 90vh; */
     background: linear-gradient(rgba(0,0,0,.9),rgba(0,0,0,.1));
@@ -111,15 +111,15 @@ section#about {
     justify-content: space-around;
 }
 
-/* End of Band */
+/* END OF THE BAND */
 
-/* Gallery */
+/* ALBUMS GALLERY */
 .gallery-list-item {
     cursor: pointer;
 }
-/* End Gallery */
+/* END OF ALBUMS GALLERY*/
 
-/* Contact */
+/* GET IN TOUCH */
 .contact {
     /* Angle to split background */
     background:linear-gradient(105deg, 
@@ -177,9 +177,9 @@ section#about {
         margin:auto;
     }
 }
-/* end of contact */
+/* END OF GET IN TOUCH */
 
-/* Footer */
+/* FOOTER */
 .footer-link {
     color: #eee;
     font-size: 13px;
@@ -189,4 +189,4 @@ section#about {
     color: #78aed2;
     text-decoration: none;
 }
-/* End of footer */
+/* END OF FOOTER */

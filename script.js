@@ -1,4 +1,4 @@
-$(window).ready(function() {
+menu togfg$(window).ready(function() {
 // Navbar
 $(window).on('scroll', function() {
   if (Math.round($(window).scrollTop()) > 100) {

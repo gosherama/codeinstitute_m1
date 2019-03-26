@@ -17,25 +17,25 @@
 ### 1.Project Overview
 This project is the first milestone of the Code Institute's fullstack development curriculum. It is a frontend only web site for 'The Monkees', a 1960's rock band that has 50 years experience of performing at various events around the world. The band is active to this day.
 
-### 2.Product Definition
-2.1 Business goals and scope
+### 2.Product Definition and user stories
+2.1 Business Objectives
 From the Client representative's brief, the business' objectives can be structured as follow:
-    * Improve the band visibility on the web;
-    * improve social media presence via links on their website to Facebook, Twitter and Youtube
-    * Reach a wider audience - existing fans and potential fans
-    * Showcase their music - audio, videos
-    * Showcase photos
+    * Improve the band's visibility on the web to reach a wider audience
+    * Modernize the band's web presence to capture new fans
+    * Improve social media presence;
+    * Increase sales
+    * Showcase their music using different medium: audio, videos
     * Realtime update of material availability
+    * Showcase photos
     * Publicize availability to perform at private events
 
 2.2 User stories
 
 | User Story    | Features     | Business Objectives|
 | :------------- | :----------: | -----------: |
-|As a fan, I want to follow the Monkees on Facebook so that I can be updated on their news|social media icon and link|Improve social media presence|
-|As a fan, I want to follow the Monkees on Twitter so that I can be updated on their news| Social media icon and link | Improve social media presence|
-|As a fan, I want to follow the Monkees on Youtube so that I can access their channel and watch videos| Social media icon and link | Improve social media presence|
-|As a fan, I want to follow the Monkees on Spotify so that I can access their discography| Social media icon and link | Improve social media presence|
+|As a fan, I want to follow the Monkees on social media so that I can be updated on their news|social media icon and link to external resouces|Improve social media presence|
+
+
 
 
 Structure
@@ -43,16 +43,12 @@ Skeleton
 Surface
 
 ### 3.Wireframe, mockups, diagrams...
-    - Include files in the project / Separate directory (file, scan..)
+    - Refer to files in folder X
+        1.
+        2.
+        3.
 
-### 4.User Stories
-
-- As a user, I want to perform an action, so that I can achieve a goal.
--
--
--
-
-### 5.Features
+### 4.Features
 #### Implemented Features
 Feature 1 - allows users X to achieve Y, by having them fill out Z
     - reference the specific project files that implement them (optional)
