@@ -17,8 +17,8 @@
 ### 1.Project Overview
 This project is the first milestone of the Code Institute's fullstack development curriculum. It is a frontend only web site for 'The Monkees', a 1960's rock band that has 50 years experience of performing at various events around the world. The band is active to this day.
 
-### 2.UX
-2.1 Strategy & product definition
+### 2.Product Definition
+2.1 Business goals and scope
 From the Client representative's brief, the business' objectives can be structured as follow:
     * Improve the band visibility on the web;
     * improve social media presence via links on their website to Facebook, Twitter and Youtube
@@ -28,7 +28,7 @@ From the Client representative's brief, the business' objectives can be structur
     * Realtime update of material availability
     * Publicize availability to perform at private events
 
-2.2 Scope & user stories
+2.2 User stories
 
 | User Story    | Features     | Business Objectives|
 | :------------- | :----------: | -----------: |
