@@ -16,34 +16,39 @@
 
 ### 1.Project Overview
 This project is the first milestone of the Code Institute's fullstack development curriculum. It is a frontend only web site for 'The Monkees', a 1960's rock band that has 50 years experience of performing at various events around the world. The band is active to this day.
+The website targets existing fan base of the group that wishes to listen to their favorite tunes, be informed of existing and new material coming out; It also aims at reaching out to a wider audience and capture new fans.
 
 ### 2.Product Definition and user stories
 2.1 Business Objectives
-From the Client representative's brief, the business' objectives can be structured as follow:
-    * Improve the band's visibility on the web to reach a wider audience
-    * Modernize the band's web presence to capture new fans
-    * Improve social media presence;
+From the Client representative's brief, the business' objectives can be summed as follow:
+    * Improve the band's visibility on the web;
+    * Modernize the band's web presence to reach a wider audience & capture new fans
+    * Establish social media presence;
     * Increase sales
     * Showcase their music using different medium: audio, videos
     * Realtime update of material availability
     * Showcase photos
     * Publicize availability to perform at private events
 
+    * Improve the band's visibility
+    * Establish social media presence
+    * Increase sales and revenues
+
 2.2 User stories
 
 | User Story    | Features     | Business Objectives|
 | :------------- | :----------: | -----------: |
-|As a fan, I want to follow the Monkees on social media so that I can be updated on their news|social media icon and link to external resouces|Improve social media presence|
-
-
-
-
-Structure
-Skeleton
-Surface
+|As a fan, I want to read background history so that I can get more familiar with the band|Meet the monkees section|Improve the Band's visibility to reach a wider audience|
+|As a fan, I want to get the band's update so that I can be informed of new material and events|Heroes CTA, Get In touch form and announcement|Realtime update of material availability|
+|As a fan, I want to follow the Monkees on social media so that I can get realtime update|social media icon and link to external resouces|Improve social media presence|
+|As a fan, I want to access their discography so that I can...|Albums section|.....|
+|As a fan, I want to read the band's news so that I can be informed....|News and Events section|....|
+|As a fan, I want to be informed of events so that I can....|News and Events section|....|
+|As a fan, I want to listen to some famous title so that I can....|...|....|
+|As a fan, I Want to watch some videos so that I can...|...|....|
 
 ### 3.Wireframe, mockups, diagrams...
-    - Refer to files in folder X
+    - Refer to files in assets/wireframes
         1.
         2.
         3.
