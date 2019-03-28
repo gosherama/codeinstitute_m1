@@ -1,70 +1,72 @@
 # Code Institute - Milestone project #1 - User Centric Frontend development
+## Alexandre Calice
 ---
 
 ## The Monkees Website
 
 1. Project Overview
-2. UX
-3. Wireframe, mockups, diagrams
-4. User Stories
-5. Features
-6. Technologies used
-7. Testing
-8. Deployment
-9. Credits & acknowledgments
-10. Resources
+2. Product Definition and User stories
+2.1 Business objectives
+2.2 User Stories
+2.3 Wireframes 
+3. Features
+3.1 Implemented Features
+3.2 Features for consideration
+4. Technologies used
+5. Testing
+6. Deployment
+7. Credits & acknowledgments
+8. Resources
 
 ### 1.Project Overview
 This project is the first milestone of the Code Institute's fullstack development curriculum. It is a frontend only web site for 'The Monkees', a 1960's rock band that has 50 years experience of performing at various events around the world. The band is active to this day.
+
 The website targets existing fan base of the group that wishes to listen to their favorite tunes, be informed of existing and new material coming out; It also aims at reaching out to a wider audience and capture new fans.
 
 ### 2.Product Definition and user stories
-2.1 Business Objectives
+#### 2.1 Business Objectives
 From the Client representative's brief, the business' objectives can be summed as follow:
-    * Improve the band's visibility on the web;
-    * Modernize the band's web presence to reach a wider audience & capture new fans
-    * Establish social media presence;
-    * Increase sales
-    * Showcase their music using different medium: audio, videos
-    * Realtime update of material availability
-    * Showcase photos
-    * Publicize availability to perform at private events
 
-    * Improve the band's visibility
-    * Establish social media presence
-    * Increase sales and revenues
+    > * Improve the band's visibility on the web;
+    > * Modernize the band's web presence to reach a wider audience & capture new fans
+    > * Establish social media presence;
+    > * Provide background information, history and showcase photos
+    > * Showcase the Monkess music using different medium: audio, videos
+    > * Realtime update of material availability
+    > * Publicize availability to perform at private events
 
-2.2 User stories
+#### 2.2 User stories
 
-| User Story    | Features     | Business Objectives|
-| :------------- | :----------: | -----------: |
-|As a fan, I want to read background history so that I can get more familiar with the band|Meet the monkees section|Improve the Band's visibility to reach a wider audience|
-|As a fan, I want to get the band's update so that I can be informed of new material and events|Heroes CTA, Get In touch form and announcement|Realtime update of material availability|
-|As a fan, I want to follow the Monkees on social media so that I can get realtime update|social media icon and link to external resouces|Improve social media presence|
-|As a fan, I want to access their discography so that I can...|Albums section|.....|
-|As a fan, I want to read the band's news so that I can be informed....|News and Events section|....|
-|As a fan, I want to be informed of events so that I can....|News and Events section|....|
-|As a fan, I want to listen to some famous title so that I can....|...|....|
-|As a fan, I Want to watch some videos so that I can...|...|....|
+| User Story    | Business Objectives|
+| :------------- | -----------: |
+|As a fan, I want to read background history so that I can get more familiar with the band|Improve the Band's visibility to reach a wider audience|
+|As a fan, I want to get the band's update so that I can be informed of new material and events|Realtime update of material availability|
+|As a fan, I want to follow the Monkees on social media so that I can get realtime update|Improve social media presence|
+|As a fan, I want to access their discography so that I can...|.....|
+|As a fan, I want to read the band's news so that I can be informed....|....|
+|As a fan, I want to be informed of events so that I can....|....|
+|As a fan, I want to listen to some famous title so that I can....|....|
+|As a fan, I Want to watch some videos so that I can...|....|
+|As a fan, I want to book the band for an event so that I can enjoy them live|Publicize availability|
 
-### 3.Wireframe, mockups, diagrams...
-    - Refer to files in assets/wireframes
+#### 2.3.Wireframe, mockups, diagrams...
+    - Refer to assets/wireframes
         1.
         2.
         3.
 
-### 4.Features
-#### Implemented Features
+### 3.Features
+#### 3.1 Implemented Features
 Feature 1 - allows users X to achieve Y, by having them fill out Z
     - reference the specific project files that implement them (optional)
 
-#### Features for consideration
+#### 3.2 Features for consideration
 -
 -
 -
 -
 
-### 6.Technologies Used
+### 4.Technologies Used
 - Code editor & debug tools
     - Visual Studio Code (V.1.29.1)
         - Live Server 5.5.1 - Local development server with live reload feature for static & dynamic pages
@@ -93,7 +95,7 @@ Feature 1 - allows users X to achieve Y, by having them fill out Z
     - [Balsamiq](https://balsamiq.com) - I leverage the 30 days trial to test this industry standard Wireframing and UI design   tool.
     - Sketching / Wireframing printable grid - [Sneakpeekit](https://sneakpeekit.com/) - Free printable grid for design layout. I used the mobile and browser grids templates during the ideation phase. 
     
-### 7.Testing
+### 5.Testing
 - convince the assessor that you have conducted enough testing to legitimately believe that the site works well.
 - go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
@@ -110,7 +112,7 @@ In addition, you should mention in this section how your project looks and works
 
 - You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
 
-### 8.Deployment
+### 6.Deployment
 - describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku)
 - In addition, if it is not obvious, you should also describe how to run your code locally.
 ---> run code locally using live server from within vscode.
